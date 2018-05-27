@@ -1,3 +1,6 @@
+// Author: yvdyash
+// Square Root Decomposition
+
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long int ll;
