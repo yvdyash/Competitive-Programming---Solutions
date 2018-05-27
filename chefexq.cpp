@@ -1,5 +1,5 @@
 // Author: yvdyash
-// Square Root Decomposition
+// Square Root Decomposition Implementation
 
 #include<bits/stdc++.h>
 using namespace std;
