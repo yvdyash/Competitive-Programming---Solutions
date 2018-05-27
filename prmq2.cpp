@@ -1,4 +1,5 @@
 // Author: yvdyash
+// Segment Tree Implementation
 
 #include <bits/stdc++.h>
 using namespace std;
