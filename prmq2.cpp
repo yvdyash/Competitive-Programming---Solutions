@@ -28,7 +28,7 @@ void findSmallestPrimeFactors()
         if (spf[i]==i)
         {    
             for (int j=i*i;j<MAXN;j+=i)
-                if (spf[j]==j)
+               	if (spf[j]==j)
                     spf[j]=i;
         }
     }
@@ -43,7 +43,7 @@ void buildDivisorsArray(int a[],int n)
         
         while (a[ni]>1)
         {
-        	primefactors[i].push_back(p);
+            primefactors[i].push_back(p);
             a[ni]=a[ni]/p;
             p=spf[a[ni]];
         }
@@ -55,7 +55,7 @@ void buildSegtmentTree(int node,int a,int b)
 {
     if (a==b)
     {
-		for(int i=0;i<primefactors[a].size();i++)
+	for(int i=0;i<primefactors[a].size();i++)
         segmentTree[node].push_back(primefactors[a][i]);
         return ;
     }
@@ -89,7 +89,7 @@ int query(int a[],int node,int c,int d,int l,int r,int x,int y,int ans)
     	ans+=y1-x1;
     	
         return ans ;
-	}
+    }
     
     return (query(a,2*node,c,(c+d)/2,l,r,x,y,ans)+query(a,2*node+1,((c+d)/2)+1,d,l,r,x,y,ans));
 }
@@ -97,23 +97,23 @@ int query(int a[],int node,int c,int d,int l,int r,int x,int y,int ans)
 
 int main()
 {
-	ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0);
+    ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0);
     
     findSmallestPrimeFactors();
     int n;
-	cin>>n;
-	for(int i=1;i<n+1;i++)
-	cin>>a[i];
+    cin>>n;
+    for(int i=1;i<n+1;i++)
+    cin>>a[i];
 	
     buildDivisorsArray(a,n);
- 	buildSegtmentTree(1, 1,n);
+    buildSegtmentTree(1, 1,n);
     
     int q;
-	cin>>q;
-	for(int i=0;i<q;i++)
-	{
-		int l,r,x,y;
-		cin>>l>>r>>x>>y;
-		cout<<query(a,1,1,n,l,r,x,y,0)<<"\n";
-	}
+    cin>>q;
+    for(int i=0;i<q;i++)
+    {
+	    int l,r,x,y;
+	    cin>>l>>r>>x>>y;
+	    cout<<query(a,1,1,n,l,r,x,y,0)<<"\n";
+    }
 }
