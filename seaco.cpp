@@ -20,7 +20,7 @@ vector <int> t(1000006),l(1000005),r(1000005);
 
 void updateBIT(ll BITree[], int n, int index, ll val)
 {
-    index = index + 1;
+    index += 1;
     
     while (index <= n)
     {
