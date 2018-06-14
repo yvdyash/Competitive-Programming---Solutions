@@ -1,5 +1,5 @@
 # 🎃 Problem Links:
-Segment Tree Implementation<br></br>
+<br>Segment Tree Implementation</br>
 PRMQ2 - Chef and Prime Queries https://www.codechef.com/JUNE17/problems/PRMQ
 
 
