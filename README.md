@@ -1,21 +1,14 @@
 # 🎃 Problem Links:
-Segment Tree Implementation
-
-PRMQ2 - Chef and Prime Queries 
-
-Problem Link: https://www.codechef.com/JUNE17/problems/PRMQ
+Segment Tree Implementation<br></br>
+PRMQ2 - Chef and Prime Queries https://www.codechef.com/JUNE17/problems/PRMQ
 
 
 <br>Square Root Decomposition</br>
-CHEFEXQ - Chef and Easy XOR Queries 
- 
-Problem Link: https://www.codechef.com/DEC17/problems/CHEFEXQ
+CHEFEXQ - Chef and Easy XOR Queries https://www.codechef.com/DEC17/problems/CHEFEXQ
 
 
 <br>Binary Indexed Tree Implementation</br>
-SEACO - Sereja and Commands
-
-Problem Link: https://www.codechef.com/SEPT17/problems/SEACO
+SEACO - Sereja and Commands https://www.codechef.com/SEPT17/problems/SEACO
 
 <br>RMQSegTree- Range Minimum Query implementation using Segment Tree </br>
 <br>BROCLK-  https://www.codechef.com/FEB18/problems/BROCLK </br>
