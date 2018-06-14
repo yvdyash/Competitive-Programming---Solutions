@@ -23,4 +23,5 @@ Problem Link: https://www.codechef.com/SEPT17/problems/SEACO
 <br>CHEFCCYL-  https://www.codechef.com/OCT17/problems/CHEFCCYL </br>
 <br>CHEFCODE-  https://www.codechef.com/MAY17/problems/CHEFCODE </br>
 <br>PERMPAL-  https://www.codechef.com/FEB18/problems/PERMPAL  </br>
+<br>CHEFDICE-  https://www.codechef.com/LTIME52/problems/CHEFDICE </br>
 
