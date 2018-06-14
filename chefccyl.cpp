@@ -87,10 +87,9 @@ int main()
 			if(c2<c1)
 			{
 				swap(c1,c2);
-			swap(v1,v2);
+				swap(v1,v2);
 			}
-			
-			
+				
 			ll ans1=0,ans2=0;
 			if(c1==1)
 			x=cycles[c2-2];
