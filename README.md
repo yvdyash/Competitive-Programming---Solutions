@@ -1,4 +1,7 @@
 # 🎃 Problem Links:
+<br><b>TRT.cpp</b>- SPOJ-Treat for the cows https://www.spoj.com/problems/TRT/ </br>
+Dynamic Programming (Recursion plus memoization)
+
 <br>Segment Tree Implementation</br>
 <b>PRMQ2.cpp</b> - Chef and Prime Queries https://www.codechef.com/JUNE17/problems/PRMQ
 
