@@ -1,6 +1,6 @@
 # 🎃 Problem Links:
 <br>Segment Tree Implementation</br>
-PRMQ2 - Chef and Prime Queries https://www.codechef.com/JUNE17/problems/PRMQ
+<b>PRMQ2.cpp</b> - Chef and Prime Queries https://www.codechef.com/JUNE17/problems/PRMQ
 
 
 <br>Square Root Decomposition</br>
