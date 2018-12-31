@@ -2,14 +2,17 @@
 #include<bits/stdc++.h>
 using namespace std;
 #define int long long
+#define FOR(i,a,b) for(int i=(a);i<(b);i++)
 
 int n,a[2001];
 int dp[2001][2001];
 
 int foo(int st,int en,int age){
-	if(dp[st][en]) return dp[st][en];
-	if(st>en) return 0;
-	int x = max(((a[st])*(age+1))+foo(st+1,en,age+1),((a[en])*(age+1))+foo(st,en-1,age+1));
+	if(dp[st][en]) 
+		return dp[st][en];
+	if(st>en) 
+		return 0;
+	int x = max ( ((a[st])*(age+1))+foo(st+1,en,age+1) , ((a[en])*(age+1))+foo(st,en-1,age+1) );
 	dp[st][en]=x;
 	return x;
 }
