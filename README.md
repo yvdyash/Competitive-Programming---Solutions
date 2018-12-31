@@ -15,10 +15,6 @@ Dynamic Programming (Recursion plus memoization)
 
 <br><b>RMQSegTree.cpp</b>- Range Minimum Query implementation using Segment Tree </br>
 
-<br><b>TRT.cpp</b>- SPOJ-Treat for the cows https://www.spoj.com/problems/TRT/ </br>
-Simple Recursion and memoization
-
-
 <br><b>BROCLK.cpp</b>-  https://www.codechef.com/FEB18/problems/BROCLK </br>
 <br><b>CHEFCCYL.cpp</b>-  https://www.codechef.com/OCT17/problems/CHEFCCYL </br>
 <br><b>CHEFCODE.cpp</b>-  https://www.codechef.com/MAY17/problems/CHEFCODE </br>
