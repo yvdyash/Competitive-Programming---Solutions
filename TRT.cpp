@@ -12,7 +12,7 @@ int foo(int st,int en,int age){
 		return dp[st][en];
 	if(st>en) 
 		return 0;
-	int x = max ( ((a[st])*(age+1))+foo(st+1,en,age+1) , ((a[en])*(age+1))+foo(st,en-1,age+1) );
+	int x = max ( (a[st]*(age+1))+foo(st+1,en,age+1) , (a[en]*(age+1))+foo(st,en-1,age+1) );
 	dp[st][en]=x;
 	return x;
 }
