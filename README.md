@@ -1,5 +1,6 @@
 # 🎃 Problem Links:
-<br><b>TRT.cpp</b>- SPOJ-Treat for the cows https://www.spoj.com/problems/TRT/ </br>
+<br><b>TRT.cpp</b>- SPOJ:Treat for the cows https://www.spoj.com/problems/TRT/ </br>
+<br><b>TWENDS.cpp</b>- SPOJ:TWENDS-Two Ends https://www.spoj.com/problems/TWENDS/ </br>
 Dynamic Programming (Recursion plus memoization)
 
 <br>Segment Tree Implementation</br>
