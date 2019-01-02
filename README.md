@@ -1,7 +1,7 @@
 # 🎃 Problem Links:
+Dynamic Programming <br>
 <b>TRT.cpp</b>- SPOJ:Treat for the cows https://www.spoj.com/problems/TRT/ <br>
 <b>TWENDS.cpp</b>- SPOJ:TWENDS-Two Ends https://www.spoj.com/problems/TWENDS/ <br>
-Dynamic Programming <br>
 <br> GRAPHS
 <br><b>BUGLIFE.cpp</b>- SPOJ:BUGLIFE - A Bug’s Life https://www.spoj.com/problems/BUGLIFE/
 <br><b>HIGHWAYS.cpp</b>- SPOJ:HIGHWAYS - Highways https://www.spoj.com/problems/HIGHWAYS/
